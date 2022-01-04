@@ -13,7 +13,7 @@ class DevTest {
 	@Test
 	void myDevTest(TestInfo testInfo) {
 		Calculator calculator = new Calculator();
-		assertEquals(1, calculator.div(1,1), "1 / 1  should equal 1");
+		assertEquals(2, calculator.div(1,1), "1 / 1  should equal 1");
 		
 	}
 
